@@ -1,0 +1,15 @@
+plugins {
+    id 'java'
+    id 'io.spring.dependency-management'
+    id 'org.springframework.boot' version '2.5.4'
+}
+
+apply from: "${rootDir}/denpendencies.gradle"
+
+dependencies {
+    implementation project(':hongjun-infra')
+    implementation project(':hongjun-admin')
+    implementation project(':hongjun-job')
+    implementation project(':hongjun-svc')
+    implementation project(':hongjun-api')
+}

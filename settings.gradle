@@ -1,0 +1,8 @@
+rootProject.name = 'hongjun'
+include 'hongjun-infra'
+include 'hongjun-admin'
+include 'hongjun-job'
+include 'hongjun-svc'
+include 'hongjun-api'
+include 'hongjun-client'
+include 'hongjun-launcher'
